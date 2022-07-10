@@ -1,0 +1,23 @@
+.header {
+    background: no-repeat left top / contain url('../../img/background/header-shape.svg');
+    height: 272px;
+    width: 100vw;
+    padding: 40px 37px 0px 48px;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 58.6px;
+    position: relative;
+}
+
+.header__anchor-icon {
+    justify-self: center;
+}
+
+.header__anchor--big {
+    position: absolute;
+    right: 0px;
+}
