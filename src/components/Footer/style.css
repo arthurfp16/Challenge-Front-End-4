@@ -1,8 +1,13 @@
 .footer {
     background-color: var(--secondary-color-green);
-    color: #FFFFFF;
-    height: 104px;
+
+    color: #ffffff;
+    font-size: 16px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
+    height: 104px;
+    width: 100%;
 }

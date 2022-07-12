@@ -2,7 +2,7 @@ import React from 'react'
 
 import './style.css'
 
-import homeIcon from '../../img/icons/home-icon.svg'
+import HomeIcon from '../../img/icons/Home-icon.svg'
 import postsIcon from '../../img/icons/posts-icon.svg'
 import userIcon from '../../img/icons/user-icon.svg'
 
@@ -11,7 +11,7 @@ export function Header({ showUserIcon, userImg }) {
         <header className='header'>
             <nav className='header__nav'>
                 <a href="/" className='header__anchor' tabIndex={0}>
-                    <img src={homeIcon} alt="home"/>
+                    <img src={HomeIcon} alt="Main"/>
                 </a>
                 <a href="/" className='header__anchor' tabIndex={0}>
                     <img src={postsIcon} alt="mensagens"/>
